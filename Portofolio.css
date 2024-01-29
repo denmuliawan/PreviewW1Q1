@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-header-footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: azure;
+    margin: 5px;
+}
+
+img {
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: auto;
+}
+
+#introduction-section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+#intro {
+    margin-left: 30px;
+}
+
+#article-section {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sub-article {
+    width: 70%;
+    border: 1px solid #ac7070;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sosmed {
+    display: flex;
+    align-items: center;
+    padding: 10px;   
+}
+
+.separator {
+    margin: 10px;
+}
